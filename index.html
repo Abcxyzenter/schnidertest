@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+    <meta content='true' name='HandheldFriendly'/>
+    <meta content='width' name='MobileOptimized'/>
+    <meta content='yes' name='apple-mobile-web-app-capable'/>
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<div class="body-wrapper">
+    <div class="body-wrapper__content">
+        <header class="header">
+            <div class="header__top-wrapper">
+                <div class="header__top">
+                    <div class="header__top-logo">
+                        <a href="#">
+                            <img src="img/logo.png"  height="" width="" alt="Лого">
+                        </a>
+                    </div>
+                    <div class="header__top-ad">
+                        <span id="timer"></span>
+                    </div>
+                    <div class="header__top-phones">
+                        <a href="tel:+74342525252">+7 (343) 252-52-52</a>
+                        <a href="tel:+74342525252">+7 (343) 252-52-52</a>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <div class="header__menu-logo" id="mobile-logo">
+                    <a href="#">
+                        <img src="img/logo.png" height="" width="" alt="Лого">
+                    </a>
+                </div>
+                <div class="header__menu-button" id="mobile-button">
+                    <div class="buter" onclick="showmenu()">
+                        <span class="buter__line" id="buter-top"></span>
+                        <span class="buter__line" id="buter-middle"></span>
+                        <span class="buter__line" id="buter-bottom"></span>
+                    </div>
+                </div>
+                <ul class="header__menu-list" id="menu-list">
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner"></div>
+        <div class="content">
+            <div class="content-wrapper">
+                <aside class="content-menu">
+                    <h3>Новости</h3>
+                    <ul class="content-menu__list">
+                        <li>
+                            <span>14 сентября 2015 г.</span>
+                            <a href="#">Акция на входные двери Фалько!</a>
+                        </li>
+                        <li>
+                            <span>14 сентября 2015 г.</span>
+                            <a href="#">Установка межкомнатных дверй в подарок при покупке 3-х полотен!</a>
+                        </li>
+                        <li>
+                            <span>14 сентября 2015 г.</span>
+                            <a href="#">Новинка! Термо двери Форт!</a>
+                        </li>
+                        <li>
+                            <span>14 сентября 2015 г.</span>
+                            <a href="#">Установка межкомнатных дверй в подарок при покупке 3-х полотен!</a>
+                        </li>
+                        <li>
+                            <span>14 сентября 2015 г.</span>
+                            <a href="#">Новинка! Термо двери Форт!</a>
+                        </li>
+                    </ul>
+                    <span class="content-menu__archive"><a href="#">Архив акций</a></span>
+                </aside>
+                <div class="content-texts">
+                    <div class="content-texts__main">
+                        <h1>Компания «Шнайдер Консалт»</h1>
+                        <p>Мы эксперты в запуске интернет-магазинов товаров для дома, строительства и ремонта. Совместный опыт нашей команды в развитии и продвижении проектов в сфере электронной торговли более 15 лет.</p>
+                        <p>Мы создали надежную технологию, которая позволяет быстро и уверено выводить интернет-магазины на продажи и самоокупаемость. Если мы беремся за проект, значит уверены в достижении бизнес результатов для наших клиентов.</p>
+                    </div>
+                    <div class="content-texts__short">
+                        <h2>Чем мы занимаемся?</h2>
+                        <div class="content-texts__short-item">
+                            <h3>Только товары для дома, строительства и ремонта.</h3>
+                            <p>Нельзя одинаково хорошо разбираться во всех отраслях рынка. Поэтому мы работаем на тех секторах рынка, на котором имеем большой опыт и разбираемся лучше всего. И это гарантирует результат нашим клиентам.</p>
+                        </div>
+                        <div class="content-texts__short-item">
+                            <h3>Строим комплексный маркетинг и продажи.</h3>
+                            <p>Мы не делаем просто сайты. Не занимаемся просто продвижением. Это не принесет результаты. Только комплексный маркетинг и и система продаж могут принести вам доходы и прибыль.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-content__copy">
+                <span>&copy 2012-2016 ЗАО "Компания"</span>
+                <a href="mailto:info@name.ru">info@name.ru</a>
+            </div>
+            <nav class="footer-content__menu">
+                <ul>
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-content__schnider">
+                <a href="#">Разработка сайта</a>
+                <span>-</span>
+                <span class="footer-content__schnider-name">компания "Шнайдер консалт"</span>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+window.addEventListener('load', ()=>{
+    let today = new Date();
+    let lap = 86400000;
+    let targetDate = today.getTime();
+    if( today.getDay() !== 1 ){
+        for(let i=0; i<6; i++){
+            targetDate += lap;
+            if ( new Date(targetDate).getDay() === 1 ){
+                break;
+            }
+        }
+    }
+    targetDate = new Date(targetDate);
+    let year, month, day;
+    year = targetDate.getFullYear().toString().substr(-2);
+    month = targetDate.getMonth()+1;
+    day = targetDate.getDate();
+    document.getElementById('timer').innerHTML = `Распродажа до ${day}.${month > 9 ? month : '0'+month}.${year}!`;
+})
+
+
+function showmenu(){
+
+    document.getElementById('menu-list').classList.toggle('open-menu');
+    document.getElementById('buter-top').classList.toggle('topline-open');
+    document.getElementById('buter-middle').classList.toggle('hidebuter');
+    document.getElementById('buter-bottom').classList.toggle('bottomline-open');
+
+}
+
+</script>
+</body>
+</html>
