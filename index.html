@@ -30,39 +30,39 @@
                     </div>
                 </div>
             </div>
-            <nav class="header__menu">
-                <div class="header__menu-logo" id="mobile-logo">
-                    <a href="#">
-                        <img src="img/logo.png" height="" width="" alt="Лого">
-                    </a>
-                </div>
-                <div class="header__menu-button" id="mobile-button">
-                    <div class="buter" onclick="showmenu()">
-                        <span class="buter__line" id="buter-top"></span>
-                        <span class="buter__line" id="buter-middle"></span>
-                        <span class="buter__line" id="buter-bottom"></span>
-                    </div>
-                </div>
-                <ul class="header__menu-list" id="menu-list">
-                    <li>
-                        <a href="#">Главная</a>
-                    </li>
-                    <li>
-                        <a href="#">Каталог</a>
-                    </li>
-                    <li>
-                        <a href="#">Доставка и оплата</a>
-                    </li>
-                    <li>
-                        <a href="#">Прайс-лист</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
         </header>
-        <div class="banner"></div>
+        <nav class="header__menu">
+            <div class="header__menu-logo" id="mobile-logo">
+                <a href="#">
+                    <img src="img/logo.png" height="" width="" alt="Лого">
+                </a>
+            </div>
+            <div class="header__menu-button" id="mobile-button">
+                <div class="buter" onclick="showmenu()">
+                    <span class="buter__line" id="buter-top"></span>
+                    <span class="buter__line" id="buter-middle"></span>
+                    <span class="buter__line" id="buter-bottom"></span>
+                </div>
+            </div>
+            <ul class="header__menu-list" id="menu-list">
+                <li>
+                    <a href="#">Главная</a>
+                </li>
+                <li>
+                    <a href="#">Каталог</a>
+                </li>
+                <li>
+                    <a href="#">Доставка и оплата</a>
+                </li>
+                <li>
+                    <a href="#">Прайс-лист</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="slider" id="slider"></div>
         <div class="content">
             <div class="content-wrapper">
                 <aside class="content-menu">
@@ -164,7 +164,7 @@ window.addEventListener('load', ()=>{
     month = targetDate.getMonth()+1;
     day = targetDate.getDate();
     document.getElementById('timer').innerHTML = `Распродажа до ${day}.${month > 9 ? month : '0'+month}.${year}!`;
-})
+});
 
 
 function showmenu(){
